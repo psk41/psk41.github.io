@@ -129,7 +129,7 @@ h1 {
     text-transform: uppercase;
     margin: 0;
     font-weight: 700;
-    line-height: 1.350;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 
     @media (max-width: 768px) {
@@ -360,4 +360,11 @@ a {
 a:hover {
     color: rgba(var(--accent-text-color-RGB), 1);
     transition: color 0s ease;
+}
+
+.hero-description {
+    max-width: 80%;
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
 }
